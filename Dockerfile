@@ -21,5 +21,5 @@ COPY . /var/www/peerjs
 
 EXPOSE 9000
 ENV NODE_ENV production
-CMD peerjs --port 9000 --key stremioPeer
+CMD bin/peerjs --port 9000 --key stremioPeer
 
